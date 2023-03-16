@@ -1,0 +1,4 @@
+https://www.mongodb.com/docs/manual/reference/database-references/
+
+curso de user y tareas en MERN: https://faztweb.com/contenido/stack-mern-ejemplo-practico
+https://github.com/FaztWeb/mern-crud-tasks/tree/master/backend/src/models
