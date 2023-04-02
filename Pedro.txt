@@ -1,0 +1,42 @@
+https://tailwindcomponents.com/component/admin-panel-basic-template
+https://bluuweb.github.io/tailwindcss/ curso inicial 
+https://www.youtube.com/watch?v=sfTBUHR9pyA&list=PLPl81lqbj-4JdoHDiERR2ptkw9zRggXAL&index=4  flexbox
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-background
+
+curso de tailwinds
+
+/* Small (sm) */
+@media (min-width: 640px) { /* ... */ }
+
+/* Medium (md) */
+@media (min-width: 768px) { /* ... */ }
+
+/* Large (lg) */
+@media (min-width: 1024px) { /* ... */ }
+
+/* Extra Large (xl) */
+@media (min-width: 1280px) { /* ... */ }
+
+marge
+r = right, l=left, t=top, b=bottom
+
+
+<body>
+        <div className="container mx-auto">
+        <button className="md:bg-blue-500 sm:bg-orange-600 
+            lg:bg-green-600 xl:bg-violet-600 md:hover:bg-blue-700 
+            sm:hover:bg-orange-500
+            text-white font-bold py-2 px-4 rounded-md">mi boton</button>
+            <h1 class="text-6xl bg-slate-300 text-center">Esto es un H1</h1>
+            <h2 class="text-5xl">Esto es un H2</h2>
+            <h3 class="text-4xl text-blue-700 uppercase text-center">Esto es un H3</h3>
+            <h4 class="text-3xl text-purple-500 lowercase text-right">Esto es un H4</h4>
+            <h5 class="text-2xl text-pink-500 capitalize">Esto es un H5</h5>
+            <h6 class="text-xl text-red-700 normal-case">Esto es un H6</h6>
+            <div className="m-5 p-5 border">
+                <p className="text-xl sm:text-xs">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt 
+                    ut labore et dolore magna aliqua. Ut enim ad minim veniam, 
+                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+        </div>
+</body>

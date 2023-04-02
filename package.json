@@ -8,8 +8,6 @@
     "dev": "nodemon server ..ignore client",
     "build": "npm install --prefix client && npm run build --prefix client",
     "start": "node server"
-    
-    
   },
   "keywords": [],
   "author": "",
@@ -23,7 +21,8 @@
     "fs-extra": "^10.1.0",
     "http-errors": "^2.0.0",
     "moongose": "^1.0.0",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "react-icons": "^4.8.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
